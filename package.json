@@ -1,0 +1,34 @@
+{
+  "name": "micro-result",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Martin Buchalik",
+  "description": "A very simple TypeScript result type",
+  "keywords": [
+    "typescript",
+    "type"
+  ],
+  "main": "",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "lint": "npm run check-ts && eslint . --max-warnings=0 && npm run lint-additional-files",
+    "//": "We only use the TS compiler to check whether our TS file contains valid TypeScript code.",
+    "check-ts": "tsc",
+    "lint-additional-files": "prettier --check **/*.{md,json,yml}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBuchalik/micro-result.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MBuchalik/micro-result/issues"
+  },
+  "homepage": "https://github.com/MBuchalik/micro-result#readme",
+  "devDependencies": {
+    "eslint-config-mbuchalik": "^1.0.0",
+    "typescript": "^4.9.4"
+  }
+}

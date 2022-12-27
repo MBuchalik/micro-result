@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // We only use the TS compiler for "linting" purposes.
+    "noEmit": true,
+
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "files": ["index.d.ts"]
+}

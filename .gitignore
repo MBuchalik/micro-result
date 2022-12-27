@@ -1,0 +1,4 @@
+node_modules/
+
+# When running "npm pack" locally (e.g. for testing purposes), a .tgz file gets created.
+/micro-result-*.tgz
