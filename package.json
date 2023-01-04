@@ -8,7 +8,7 @@
     "typescript",
     "type"
   ],
-  "main": "",
+  "main": "index.js",
   "types": "index.d.ts",
   "files": [
     "index.d.ts"

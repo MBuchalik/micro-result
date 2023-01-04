@@ -15,7 +15,7 @@ npm install micro-result
 Now, you can use the `Result` type:
 
 ```ts
-import type { Result } from 'micro-result';
+import { Result } from 'micro-result';
 
 const result: Result<number> = {
   success: true,
