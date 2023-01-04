@@ -1,6 +1,6 @@
 {
   "name": "micro-result",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Martin Buchalik",
   "description": "A very simple TypeScript result type",
